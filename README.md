@@ -9,30 +9,31 @@ Description:
  
  The solvers included in this comparison are as given below:
 
-"	ssAMP-BGFD : Jaewook Kang, Hyoyoung Jung, Heung-No Lee, and Kiseon Kim,  
+	-ssAMP-BGFD : Jaewook Kang, Hyoyoung Jung, Heung-No Lee, and Kiseon Kim,  
                "Bernoulli-Gaussian Approximate Message-Passing Algorithm for Compressed 
                 Sensing with 1D-Finite-Difference Sparsity,"  submitted SEP 2015
                (https://sites.google.com/site/jwkang10/)
                
-" EFLA        :  J. Liu, L. Yuan, and J. Ye. 
+	-EFLA :  J. Liu, L. Yuan, and J. Ye. 
                  An efficient algorithm for a class of fused lasso problems,
                  proc of ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2010
                 (http://yelab.net/software/SLEP/ )
                 
-" TVAMP        :  D. L. Donoho, I. Johnstone, and A. Montanari, 
+	-TVAMP:  D. L. Donoho, I. Johnstone, and A. Montanari, 
                   Accurate prediction of phase transitions in compressed sensing via 
                   a connection to minimax denoising,  IEEE Trans. Inform. Theory, 
                   vol. 59, no. 6, pp. 3396-3433, June 2013.
                   
-"Chambolle-Pock : A. Chambolle, T. Pock, 
+	-Chambolle-Pock : A. Chambolle, T. Pock, 
                   A first-order primal-dual algorithm for convex
                   problems with applications to imaging, J. Math. Imag. Vis., vol. 40, pp.
                   120-145, May 2011
                   
-"GrAMPA       :  M. Borgerding and P. Schniter, 
+	-GrAMPA :  M. Borgerding and P. Schniter, 
                 Generalized approximate message passing for the cosparse analysis
                 model,ICASSP 2015 and avabilable at ArXiv:1312.3968v1 [cs.IT], Dec. 2013
                 ( http://www2.ece.ohio-state.edu/~schniter/GrAMPA/index.html ) 
+		
 ==============================================================================
 
 This demonstration require two external numerical solvers for the TVAMP denoiser
